@@ -1,0 +1,129 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+  }
+
+/*ESTILO DE LETRAS CON ILUMINACION*/
+.container span:nth-child(1) {
+	color: #f2ff00;
+}
+.container span {
+	font-size: 45pt;
+	font-weight: bold;
+	position: relative;
+	font-family: "Fredoka One";
+	cursor: pointer;
+	transition: all 300ms ease-in-out;
+}
+.container span::before {
+	content: var(--l);
+	position: absolute;
+	transform: scale(1.1);
+	filter: blur(10px);
+}
+.container span::after {
+	content: var(--l);
+	position: absolute;
+	height: 200%;
+	width: 300px;
+	top: 80%;
+	left: 0;
+	filter: blur(30px);
+	transform: rotateX(50deg);
+}
+
+/*TEXTO CONTENEDORES*/
+.texto {
+	color: #ffffff;
+	align: center;
+}
+
+.texto1{
+	style: --l;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+	margin: 40px auto 0;
+}
+
+/*CONTENEDOR GENERAL*/
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 3 CONTENEDORES */
+  .contenedor {
+	  gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .contenido {
+	background: transparent;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .contenimg {
+	max-width: 100%;
+	border-radius: 5px;
+	margin-top: 50px;
+  }
+
+  .img {
+	width: 100%;
+	height: 100%;
+	background-image: url(../../Components/images/Contenedores/Mica\ Cristal\ Marco.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* CONTENEDOR */  
+  .contenedor-transparente {
+	background: transparent;
+	padding: 20px;
+	margin: 50px auto;
+	width: 80%;
+	max-width: 600px;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgb(225, 1, 255);
+	text-align: center;
+  }
+  
+h1 {
+	margin-top: 0;
+}
+
+/*ANIMACION DE DESPLAZAMIENTO */
+.contenedor-animado {
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    padding: 0 40PX;
+    position: relative;
+}
+
+.texto-animado {
+	font-size: 16px;
+    color: #ffffff;
+    white-space: nowrap;
+    display: inline-block;
+    animation: deslizar 20s linear infinite;
+}
+
+@keyframes deslizar {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
