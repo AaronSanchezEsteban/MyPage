@@ -12,7 +12,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  animation: slide 9s infinite;
+  animation: slide 10s infinite;
 }
 
 .carousel-item {
@@ -40,14 +40,29 @@
 }
 
 .carousel-caption {
-  position: absolute;
-  bottom: 10px;
-  left: 575px;
-  color: white;
-  background: rgba(0, 0, 0, 0.334);
+  left: 115px;
+  bottom: 80px;
   padding: 15px;
-  border-radius: 8px;
   max-width: 70%;
+  max-height: 23%;
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.596);
+}
+
+.h2 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p{
+  margin: 5;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes slide {
