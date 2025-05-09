@@ -1,0 +1,72 @@
+/* ESTILOS GENERALES PARA LA BARRA NAVEGACION */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* BARRA BUSCADORA */
+.search-form {
+  margin: 30px auto 0;
+  position: relative;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 5px;
+  /* TRANSICION SUAVE*/
+  transition: background-color 0.3s ease;
+}
+
+/* ESTILO DE BARRA DE BUSQUEDA */
+.search-input {
+  position: relative;
+  width: 500px;
+  height: 35px;
+  display: flex;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  outline: none;
+  /* FONDO TRANPARENTE*/
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* EFECTO SOBRE EL CAMPO DE BUSQUEDA */
+.search-input:hover,
+.search-input:focus {
+  /* FONDO MAS OPACO */
+  background-color: rgb(255, 255, 255);
+}
+
+/* ESTILO DEL BOTON DE BUSQUEDA*/
+.search-button {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+/*EFECTO SOBRE EL BOTON DE BUSAQEUDA*/
+.search-button:hover {
+  /* CAMBIA EL COLOR DEL TEXTO */
+  color: rgb(255, 238, 48);
+}
+
+/* ESPACIO BARRA BUSQUEDA */
+.space-40 {
+  margin-bottom: 40px;
+}
+
+.contexto {
+  margin-top: 40px;
+}
