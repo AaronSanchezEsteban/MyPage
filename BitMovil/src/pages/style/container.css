@@ -54,31 +54,50 @@
 }
 
 /* 3 CONTENEDORES */
-  .tres-contenedor {
-	gap: 20px;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  .contenido {
-	background: transparent;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-  .contenimg {
-	max-width: 100%;
-	border-radius: 5px;
-	margin-top: 50px;
-  }
-
-  .img {
-	width: 100%;
-	height: 100%;
-	background-image: url(../../Components/images/Contenedores/Mica\ Cristal\ Marco.png);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+.container-principal {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
+
+.tres-container {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.tres-container:hover {
+  transform: translateY(-5px);
+}
+
+.tres-container h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.tres-container p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+
+.tres-container span {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.img-proyect {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
 
 /* CONTENEDOR */  
   .contenedor-transparente {
