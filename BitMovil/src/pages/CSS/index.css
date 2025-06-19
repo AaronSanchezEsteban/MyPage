@@ -1,0 +1,106 @@
+/* VARIAS IMAGENES DE FONDO*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../../Components/images/Fondo/Fondo-1.png");
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+nav {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    margin-top: 2rem;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+
+    header,
+    footer {
+        padding: 0.5rem;
+    }
+
+    nav {
+        padding: 0.25rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .container {
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}

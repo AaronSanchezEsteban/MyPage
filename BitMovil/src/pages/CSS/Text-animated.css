@@ -1,18 +1,27 @@
 /*ANIMACION DE DESPLAZAMIENTO */
 .contenedor-animado {
     width: 100%;
+    display: flex;
     margin-top: 20px;
     overflow: hidden;
     position: relative;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
 }
 
 
 .texto-animado {
+    width: 100%;
+    display: flex;
     font-size: 16px;
+    overflow: hidden;
     color: #00fff2;
+    position: relative;
     white-space: nowrap;
     display: inline-block;
+    justify-content: center;
+    background-color: transparent;
     animation: deslizar 20s linear infinite;
 }
 
@@ -30,10 +39,17 @@
 }
 
 /* TEXTO NORMAL */
-
 .text-normal {
     font-size: 16px;
     color: #ffffff;
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ADAPTACION DE PANTALLA */
+@media (max-width: 600px) {
+  .texto-animado,
+  .text-normal {
+    font-size: 12px;
+  }
 }

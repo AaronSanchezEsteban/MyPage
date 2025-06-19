@@ -1,16 +1,3 @@
-/* VARIAS IMAGENES DE FONDO*/
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("../../Components/images/Fondo/Fondo-1.png");
-}
-
 /* FORMATO DE VIDEO CONTENEDOR */
 .video {
     width: 100%;
@@ -56,4 +43,28 @@ body {
     border: 2px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ADPATACION DE PANTALLAS */
+@media (max-width: 900px) {
+  body {
+    font-size: 11px;
+  }
+  .video {
+    max-width: 100vw;
+    height: auto;
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+  .video {
+    max-width: 100vw;
+    height: auto;
+    max-height: 150px;
+    border-radius: 5px;
+  }
 }
