@@ -67,27 +67,16 @@
 
 @keyframes slide {
   0% { transform: translateX(0%); }
-  33% { transform: translateX(0%); }
-  36% { transform: translateX(-100%); }
-  66% { transform: translateX(-100%); }
-  69% { transform: translateX(-200%); }
-  100% { transform: translateX(-200%); }
+  20% { transform: translateX(0%); }
+  25% { transform: translateX(-100%); }
+  45% { transform: translateX(-100%); }
+  50% { transform: translateX(-200%); }
+  70% { transform: translateX(-200%); }
+  75% { transform: translateX(-300%); }
+  95% { transform: translateX(-300%); }
+  100% { transform: translateX(0%); }
 }
 
-/* ADAPTACION DE PANTALLAS */
-@media (max-width: 900px) {
-  .carousel {
-    width: 95vw;
-    height: 200px;
-  }
-  .carousel-caption {
-    left: 10vw;
-    bottom: 30px;
-    max-width: 80%;
-    font-size: 12px;
-    padding: 8px;
-  }
-}
 
 @media (max-width: 600px) {
   .carousel {

@@ -45,11 +45,3 @@
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-/* ADAPTACION DE PANTALLA */
-@media (max-width: 600px) {
-  .texto-animado,
-  .text-normal {
-    font-size: 12px;
-  }
-}

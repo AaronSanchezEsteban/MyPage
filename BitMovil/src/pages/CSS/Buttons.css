@@ -62,28 +62,28 @@ nav .start-Home, a:nth-child(1):hover~.animation {
 }
 nav .start-Games, a:nth-child(2):hover~.animation {
 	width: 110px;
-	left: 87px;
+	left: 95px;
 	background-color: #9900ff;
 }
 nav .start-Proyect, a:nth-child(3):hover~.animation {
-	width: 95px;
-	left: 192px;
+	width: 98px;
+	left: 215px;
 	background-color: #4642fc;
 }
 nav .start-Software, a:nth-child(4):hover~.animation {
-	width: 115px;
-	left: 300px;
+	width: 120px;
+	left: 320px;
 	background-color: #ff00ff;
 }
 nav .start-Info, a:nth-child(5):hover~.animation {
 	width: 90px;
-	left: 440px;
+	left: 450px;
 	background-color: #9900ff;
 }
 
 nav .start-Info, a:nth-child(6):hover~.animation {
 	width: 100px;
-	left: 552px;
+	left: 550px;
 	background-color: #4642fc;
 }
 
@@ -107,42 +107,4 @@ nav .start-Info, a:nth-child(6):hover~.animation {
   background-color: #8129f45f;
   transform: scale(3);
   box-shadow: 0 5px 5px #8022f9a9;
-}
-
-
-/* ADAPTACION DE PANTALLAS */
-@media (max-width: 900px) {
-  nav {
-    width: 98vw;
-    font-size: 9px;
-    height: auto;
-    flex-wrap: wrap;
-  }
-  nav a {
-    font-size: 13px;
-    padding: 0 8px;
-    line-height: 40px;
-  }
-}
-
-@media (max-width: 600px) {
-  nav {
-    width: 100vw;
-    font-size: 8px;
-    height: auto;
-    margin: 10px auto 0;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  nav a {
-    display: block;
-    width: 100%;
-    font-size: 12px;
-    line-height: 35px;
-    text-align: left;
-    padding-left: 15px;
-  }
-  nav .animation {
-    display: none;
-  }
 }

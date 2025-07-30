@@ -1,10 +1,13 @@
-/* VARIAS IMAGENES DE FONDO*/
+/* GENERAL*/
 body {
     margin: 0;
     padding: 0;
+    display: flex;
     font-size: 12px;
     text-align: center;
+    align-items: center;
     background-size: cover;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,15 +16,18 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    max-width: 1800px;
     margin: 2rem auto;
     background: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
     align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -64,43 +70,4 @@ footer {
     padding: 1rem;
     border-radius: 0 0 8px 8px;
     margin-top: 2rem;
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-    .container {
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-    body {
-        font-size: 16px;
-    }
-}
-
-/* Móvil */
-@media (max-width: 600px) {
-
-    header,
-    footer {
-        padding: 0.5rem;
-    }
-
-    nav {
-        padding: 0.25rem;
-    }
-
-    nav a {
-        display: block;
-        margin: 0.5rem 0;
-    }
-
-    .container {
-        padding: 0.5rem;
-        margin: 0.5rem;
-    }
-
-    body {
-        font-size: 14px;
-    }
 }
