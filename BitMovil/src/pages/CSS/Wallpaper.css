@@ -2,12 +2,12 @@
 .video {
     width: 100%;
     height: auto;
-    max-height: 500px;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
-    display: block; /* */
+    display: flex;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* VIDEO SEA RESPONSIVE */
@@ -27,12 +27,12 @@
 
 /*VIDEO CENTRADO*/
 .center-video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
     margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
 }
 
 .video {
@@ -40,7 +40,7 @@
     max-width: 720px;
     /* ASPECTO RESOLUCION 16:9 */
     height: 405px;
-    border: 2px solid #ccc;
     border-radius: 10px;
+    border: 2px solid #ccc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }

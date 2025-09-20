@@ -1,11 +1,11 @@
 .carousel {
+  margin: auto;
   width: 750px;
   height: 300px;
-  margin: auto;
+  position: flex;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  position: relative;
 }
 
 .carousel-inner {
@@ -23,20 +23,18 @@
 }
 
 .carousel-content {
-  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  overflow: hidden;
+  justify-content: center;
 }
 
 .carousel-content img {
   width: 100%;
   height: 100%;
+  display: center;
   object-fit: cover;
-  display: block;
 }
 
 .carousel-caption {

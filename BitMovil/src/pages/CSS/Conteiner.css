@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    min-height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.tips-conteiner {
+    display: grid;
+    min-height: 50dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row;
+    }
+}
