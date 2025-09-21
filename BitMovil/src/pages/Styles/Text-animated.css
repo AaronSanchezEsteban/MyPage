@@ -1,8 +1,8 @@
 /*ANIMACION DE DESPLAZAMIENTO */
 .contenedor-animado {
-    width: 100%;
+    width: flex;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     overflow: hidden;
     position: relative;
     align-items: center;
@@ -23,10 +23,6 @@
     justify-content: center;
     background-color: transparent;
     animation: deslizar 20s linear infinite;
-}
-/* EFECTO LETRAS DESPLANZANDOSE*/
-.space {
-    margin-top: 20px;
 }
 
 @keyframes deslizar {

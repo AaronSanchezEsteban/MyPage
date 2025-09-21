@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*background: url("../../Components/images/Fondo/Fondo-1.png") center/cover no-repeat fixed;*/
+    background: url("/BitMovil/src/images/Fondo/Fondo-1.png") center/cover no-repeat fixed;
     
 }
 
@@ -30,6 +30,7 @@ body {
 
 main {
     width: 100%;
+    margin-top: 40px;
 }
 
 img {
@@ -49,6 +50,6 @@ footer {
     border-radius: 0 0 8px 8px;
 }
 
-.space {
-  margin-top: 50px;
+.space + .space {
+    margin-top: 8%;
 }
