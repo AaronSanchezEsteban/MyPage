@@ -5,7 +5,7 @@
 }
 
 /* 3 CONTENEDORES */
-.container-tres {
+.view-container {
   gap: 5rem;
   display: flex;
   flex-wrap: wrap;
@@ -14,9 +14,9 @@
 }
 
 .tres-container {
-  width: 265px;
-  padding: 1.5rem;
-  border-radius: 15px;
+  width: 160px;
+  padding: 2.5rem;
+  border-radius: 25px;
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
   background: rgba(0, 0, 0, 0.6);

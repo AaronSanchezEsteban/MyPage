@@ -1,4 +1,9 @@
 /* GENERAL */
+.view{
+    width: 900px;
+    margin: 0 auto;
+}
+
 body {
     margin: 0;
     display: flex;
