@@ -1,0 +1,24 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronSanchezEsteban/MyPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronSanchezEsteban/MyPage/issues"
+  },
+  "homepage": "https://github.com/AaronSanchezEsteban/MyPage#readme",
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "eslint-plugin-security": "^3.0.1"
+  }
+}

@@ -1,9 +1,9 @@
 /* GENERAL */
 .view{
     width: 900px;
-    max-width:0 auto;
     margin: 0 auto;
     padding: 0 10px;
+    max-width: 900px;
     box-sizing: block;
 }
 
