@@ -1,15 +1,27 @@
+/* CONTENEDOR PRINCIPAL */
+.conteiner {
+	background-color: transparent;
+	padding: 10px 0;
+}
+
+/* CONTENEDOR FLEXIBLE MENU */
+.navbar {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* --- TU NAV ORIGINAL --- */
 nav {
-	/* SOMBRA OPCIONAL */
 	padding: 1px;
-	width: 600px;
-	height: 50px;
-	font-size: 10px;
+	width: 80%;
+	height: 55px;
+	font-size: 15px;
 	position: relative;
 	border-radius: 10px;
-	margin: 27px auto 0;
-	background-image: #ffffff;
+	margin: 30px auto 0;
 	background-color: transparent;
-	box-shadow: 0 2px 5px rgb(0, 0, 0);
+	box-shadow: 0 5px 8px  rgb(225, 1, 255);
 }
 
 nav a {
@@ -35,79 +47,59 @@ nav .animation {
 	transition: all .5s ease 0s;
 }
 
+/* DISTANCIA EN LOS ENLACES/LETRAS */
 a:nth-child(1) {
-	width: 100px;
+	width: 140px;
 }
 
 a:nth-child(2) {
-	width: 110px;
+	width: 140px;
 }
 
 a:nth-child(3) {
-	width: 100px;
+	width: 140px;
 }
 
 a:nth-child(4) {
-	width: 160px;
+	width: 140px;
 }
 
 a:nth-child(5) {
-	width: 120px;
+	width: 140px;
 }
 
+/* Animación de fondo al pasar */
 nav .start-Home,
 a:nth-child(1):hover~.animation {
 	left: 0;
-	width: 98px;
-	background-color: #fffbfb70;
+	width: 135px;
+	background-color: #ffffff42;
 }
 
 nav .start-Games,
 a:nth-child(2):hover~.animation {
-	left: 95px;
-	width: 126px;
-	background-color: #fffbfb70;
+	left: 140px;
+	width: 150px;
+	background-color: #ffffff42;
 }
 
 nav .start-Proyect,
 a:nth-child(3):hover~.animation {
-	width: 98px;
-	left: 218px;
-	background-color: #fffbfb70;
+	width: 144px;
+	left: 289px;
+	background-color: #ffffff42;
 }
 
 nav .start-Software,
 a:nth-child(4):hover~.animation {
-	left: 328px;
+	left: 435px;
 	width: 140px;
-	background-color: #fffbfb70;
+	background-color: #ffffff42;
 }
 
 nav .start-Info,
 a:nth-child(5):hover~.animation {
-	width: 120px;
-	left: 479px;
-	background-color: #fffbfb70;
-}
-
-/*BOTON MAS INFO*/
-.boton-container {
-	margin-top: 10px;
-	text-align: center;
-}
-
-.btn-animado {
-	color: #ffffff;
-	display: center;
-	padding: 5px 35px;
-	border-radius: 10px;
-	text-decoration: none;
-	transition: all 0.10s ease;
-	background-color: transparent;
-}
-
-.btn-animado:hover {
-	transform: scale(3);
-	background-color: #8129f45f;
-	box-shadow: 0 5px 5px #8022f9a9;
+	width: 143px;
+	left: 578px;
+	background-color: #ffffff42;
 }

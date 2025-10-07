@@ -1,7 +1,7 @@
 /*TEXTO CONTENEDORES*/
 .textoflooter {
-	color: #ffffff;
-	box-align: center;
+  color: #ffffff;
+  box-align: center;
 }
 
 /* 3 CONTENEDORES */
@@ -20,7 +20,7 @@
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 15px rgba(255, 0, 255, 0.627);
+  box-shadow: 0 0 15px rgb(255, 0, 255);
 }
 
 .tres-container:hover {
@@ -29,25 +29,33 @@
 
 .tres-container h2 {
   margin-top: 0;
-  font-size: 1.4rem;
+  font-size: 25px;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.tres-container p {
-  margin: 0.5rem 0;
-  font-size: 1rem;
+.tres-container typeTitle {
+  font-size: 18px;
   color: #dcdcdc;
-}
-
-.tres-container span {
-  font-size: 0.9rem;
-  color: #bbb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .img-proyect {
   max-width: 100%;
-  border-radius: 10px;
   margin: 0.5rem 0;
+  border-radius: 10px;
+}
+
+.lista-check {
+  padding-left:0;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  list-style: none;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* 3 CONTENEDOR DE IMAGENES  */
@@ -58,13 +66,13 @@
 }
 
 .container-imagen {
-  width: 29%;
+  width: 48%;
   height: auto;
-  padding: 10px;
+  padding: 1px;
   cursor: pointer;
   overflow: hidden;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .container-imagen img {
@@ -86,7 +94,7 @@
   left: 50%;
   display: fixed;
   padding: 25px;
-  position: fixed;           
+  position: fixed;
   max-width: 80vw;
   max-height: 80vh;
   border-radius: 8px;
@@ -97,9 +105,9 @@
 }
 
 .modal img {
-  max-width: 60%; 
+  max-width: 60%;
   max-height: 80%;
-  object-fit: contain; 
+  object-fit: contain;
   border-radius: 10px;
 }
 
@@ -113,14 +121,31 @@
   position: absolute;
 }
 
-/* CONTENEDOR LETRAS INFERIOR*/  
-  .contenedor-transparente {
-    width: 80%;
-    padding: 20px;
-    max-width: 600px;
-    margin: 50px auto;
-    text-align: center;
-    border-radius: 15px;
-	  background: transparent;
-	  box-shadow: 0 4px 8px rgb(225, 1, 255);
-  }
+.btn-animado {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  box-align: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-size: 100% 100%;
+  transition: background-position 0.5s;
+  animation: gradientAnimation 5s ease infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+}
+
+/* CONTENEDOR LETRAS INFERIOR*/
+.contenedor-transparente {
+  width: 80%;
+  padding: 20px;
+  font-size: 12px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 15px;
+  background: transparent;
+  box-shadow: 0 4px 8px rgb(225, 1, 255);
+}

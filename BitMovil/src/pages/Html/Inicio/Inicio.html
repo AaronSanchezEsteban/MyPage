@@ -6,12 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link type="text/css" href="../../Styles/index.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/BitMovil/src/images/Fondo/Icon World.png">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Buttons.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Carousel.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Wallpaper.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Text-animated.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/threeconteiners.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/BitMovil/src/images/Fondo/Icon World.png">
 </head>
 
 <body>
@@ -20,14 +20,27 @@
 
       <!-- HEADER -->
       <header class="conteiner">
-        <nav>
-          <a href="../Inicio/Inicio.html">Inicio</a>
-          <a href="../Accesorios/Accesorios.html">Accesorios</a>
-          <a href="../Software/Software.html">Software</a>
-          <a href="../Documentos/Documents.html">Documentos</a>
-          <a href="../Gamer/Gamer.html">Gamer</a>
-          <div class="animation start-home"></div>
-        </nav>
+        <div class="navbar">
+          <nav>
+            <a href="../Inicio/Inicio.html">Inicio</a>
+            <a href="../Accesorios/Accesorios.html">Accesorios</a>
+            <a href="../Software/Software.html">Software</a>
+            <a href="../Documentos/Documents.html">Documentos</a>
+            <a href="../Gamer/Gamer.html">Gamer</a>
+            <div class="animation start-home"></div>
+
+            <!-- BOTON DESPLEGABLE -->
+            <div class="space">
+              <div class="login-dropdown">
+                <div class="dropdown-content">
+                  <a href="../Login/Login.html">Log in</a>
+                  <a href="../Registro/Registro.html">Sign up</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
       </header>
 
       <!-- MAIN -->
@@ -93,24 +106,24 @@
           <div class="view-container contexto">
             <!-- CONTENT 1 -->
             <div class="tres-container">
-              <h2>¿Buscas software? 💿</h2>
-              <p>Tenemos la solución ideal para ti.</p>
-              <span class="lista-check">
-                <div>✅ Socio mayorista o distribuidor.</div>
-                <div>✅ Diseño, multimedia, edición.</div>
-                <div>✅ Organización y productividad.</div>
-                <div>✅ Soporte técnico 24/7.</div>
-                <div>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</div>
-              </span>
-              <div class="boton-container space">
-                <a href="" target="_blank" class="btn-animado">
-                  🔍 Información
-                </a>
-              </div>
+              <h2>Buscas software</h2>
+              <typeTitle>Tenemos la solución ideal para ti.</lettersType>
+                <ul class="lista-check">
+                  <li>✅ Socio mayorista o distribuidor.</li>
+                  <li>✅ Diseño, multimedia, edición.</li>
+                  <li>✅ Organización y productividad.</li>
+                  <li>✅ Soporte técnico 24/7.</li>
+                  <li>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</li>
+                </ul>
+                <div class="boton-container">
+                  <a href="" target="_blank" class="btn-animado">
+                    🔍 Información
+                  </a>
+                </div>
             </div>
             <!-- CONTENT 2 -->
             <div class="tres-container">
-              <h2>Arma tu Computadora 💻</h2>
+              <h2>Arma tu Computadora</h2>
               <div class="imagenes-grid">
                 <div class="container-imagen">
                   <img src="/BitMovil/src/images/Contenedores/PC-Gamer-1.jpg" alt="Imagen 1"
@@ -121,8 +134,8 @@
                     onclick="abrirImagen(this.src)">
                 </div>
               </div>
-              <p>¡Encuentra toda la información que necesitas para armar tu
-                Computadora, desde los componentes hasta consejos prácticos!</p>
+              <li class="lista-check">¡Encuentra toda la información que necesitas para armar tu
+                Computadora, desde los componentes hasta consejos prácticos!</li>
               <div class="boton-container">
                 <a href="" target="_blank" class="btn-animado">
                   🔍 Información
@@ -132,14 +145,15 @@
 
             <!-- CONTENT 3 -->
             <div class="tres-container">
-              <h2>Soporte & Ayuda Técnica 🔧 👷🏻</h2>
+              <h2>Soporte Técnico</h2>
               <video controls width="100%">
                 <source src="ayuda.mp4" type="video/mp4" />
                 Tu navegador no soporta este video.
               </video>
-              <p>¿Problemas con tu Dispositivo?</p>
-              <p>Ofrecemos soluciones rápidas y confiables en tus dispositivos;
-                Reparaciones, instalaciones & actualizaciones.</p>
+              <typeTitle>¿Problemas con tu Dispositivo?</typeTitle>
+              <li class="lista-check">Ofrecemos soluciones rápidas y confiables en tus
+                dispositivos; Reparaciones, instalaciones & actualizaciones.</li>
+
               <div class="boton-container">
                 <a href="" target="_blank" class="btn-animado">
                   🔍 Información
