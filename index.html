@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="/BitMovil/src/images/Fondo/Icon World.png">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/index.css" rel="stylesheet">
+  <link type="text/css" href="/index.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Buttons.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Carousel.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Wallpaper.css" rel="stylesheet">
@@ -20,10 +20,13 @@
 
       <!-- HEADER -->
       <header class="conteiner">
+
         <!-- Botón hamburguesa -->
         <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
           <span></span>
         </button>
+
+        <!-- MENU DESPLEGABLE -->
         <nav id="mainMenu">
           <a href="../BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
           <a href="../BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
@@ -31,7 +34,7 @@
           <a href="../BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
           <a href="../BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
           <div class="animation start-home"></div>
-          <!-- BOTON DESPLEGABLE -->
+          <!-- BOTÓN DESPLEGABLE -->
           <div class="space">
             <div class="login-dropdown">
               <div class="dropdown-content">
@@ -52,7 +55,7 @@
               <!-- CAROUSEL 1 -->
               <div class="carousel-item">
                 <div class="carousel-content">
-                  <img src="/BitMovil/src/images/Contenedores/Accesorios-1.png" alt="Imagen 1">
+                  <img src="/BitMovil/src/Assets/Contenedores/Accesorios-1.png" alt="Imagen 1">
                   <div class="carousel-caption">
                     <h2 class="h2">ACCESORIOS</h2>
                     <typeTitle>Encontrarás de todo tipo de accesorios para
@@ -64,7 +67,7 @@
               <!-- CAROUSEL 2 -->
               <div class="carousel-item">
                 <div class="carousel-content">
-                  <img src="/BitMovil/src/images/Contenedores/VideoGames.png" alt="Imagen 2">
+                  <img src="/BitMovil/src/Assets/Contenedores/VideoGames.png" alt="Imagen 2">
                   <div class="carousel-caption">
                     <h2 class="h2">SERVICIOS</h2>
                     <typeTitle>Requieres de algún servicio de mantenimiento preventivo,
@@ -76,7 +79,7 @@
               <!-- CAROUSEL 3 -->
               <div class="carousel-item">
                 <div class="carousel-content">
-                  <img src="/BitMovil/src/images/Contenedores/Setups Pc Gamer.jpg" alt="Imagen 3">
+                  <img src="/BitMovil/src/Assets/Contenedores/Setups Pc Gamer.jpg" alt="Imagen 3">
                   <div class="carousel-caption">
                     <h2 class="h2">EQUIPOS GAMER</h2>
                     <typeTitle>Encontrarás cualquier hardware para armar tu setup gamer,
@@ -88,7 +91,7 @@
               <!-- IMG 4 -->
               <div class="carousel-item">
                 <div class="carousel-content">
-                  <img src="/BitMovil/src/images/Contenedores/License Security.jpg" alt="Imagen 4">
+                  <img src="/BitMovil/src/Assets/Contenedores/License Security.jpg" alt="Imagen 4">
                   <div class="carousel-caption">
                     <h2 class="h2">LICENCIAS DE SOFTWARE</h2>
                     <typeTitle>Obtén las mejores licencias de software,
@@ -126,11 +129,11 @@
               <h2>Arma tu Computadora</h2>
               <div class="imagenes-grid">
                 <div class="container-imagen">
-                  <img src="/BitMovil/src/images/Contenedores/PC-Gamer-1.jpg" alt="Imagen 1"
+                  <img src="/BitMovil/src/Assets/Contenedores/PC-Gamer-1.jpg" alt="Imagen 1"
                     onclick="abrirImagen(this.src)">
                 </div>
                 <div class="container-imagen">
-                  <img src="/BitMovil/src/images/Contenedores/PC-Gamer-2.jpg" alt="Imagen 2"
+                  <img src="/BitMovil/src/Assets/Contenedores/PC-Gamer-2.jpg" alt="Imagen 2"
                     onclick="abrirImagen(this.src)">
                 </div>
               </div>
@@ -182,6 +185,7 @@
   </div>
 
   <!-- SCRIPT -->
+  <script src="index.js"></script>
   <script src="/BitMovil/src/pages/Html/Inicio/Inicio.js"></script>
 </body>
 

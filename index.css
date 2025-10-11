@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url("/BitMovil/src/images/Fondo/Fondo-1.png") center/cover no-repeat fixed;
+    background: url("/BitMovil/src/Assets/Fondo/Fondo-1.png") center/cover no-repeat fixed;
     
 }
 
