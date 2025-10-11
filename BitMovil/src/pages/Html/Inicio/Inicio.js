@@ -8,3 +8,9 @@ function abrirImagen(src) {
 function cerrarModal() {
   document.getElementById('modal').style.display = 'none';
 }
+
+/* MENU DEZPLEGANTE */
+function toggleMenu() {
+  var menu = document.getElementById('mainMenu');
+  menu.classList.toggle('active');
+}

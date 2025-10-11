@@ -18,16 +18,19 @@
   <div class="view">
     <div class="tips-conteiner">
 
-      <!-- HEADER -->
+<!-- HEADER -->
       <header class="conteiner">
-        <nav>
-          <a href="/BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
-          <a href="/BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
-          <a href="/BitMovil/src/pages/Html/Software/Software.html">Software</a>
-          <a href="/BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
-          <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
+        <!-- Botón hamburguesa -->
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
+          <span></span>
+        </button>
+        <nav id="mainMenu">
+          <a href="../BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
+          <a href="../BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
+          <a href="../BitMovil/src/pages/Html/Software/Software.html">Software</a>
+          <a href="../BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
+          <a href="../BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
           <div class="animation start-home"></div>
-
           <!-- BOTON DESPLEGABLE -->
           <div class="space">
             <div class="login-dropdown">
@@ -178,8 +181,7 @@
   </div>
 
   <!-- SCRIPT -->
-  <script src="../Inicio/Inicio.js"></script>
-
+  <script src="/BitMovil/src/pages/Html/Inicio/Inicio.js"></script>
 </body>
 
 </html>
