@@ -71,35 +71,125 @@ a:nth-child(5) {
 /* Animación de fondo al pasar */
 nav .start-Home,
 a:nth-child(1):hover~.animation {
-	left: 0;
+	height: 0px;
 	width: 135px;
 	background-color: #ffffff42;
 }
 
 nav .start-Games,
 a:nth-child(2):hover~.animation {
-	left: 140px;
 	width: 150px;
+	height: 140px;
 	background-color: #ffffff42;
 }
 
 nav .start-Proyect,
 a:nth-child(3):hover~.animation {
 	width: 144px;
-	left: 289px;
+	height: 289px;
 	background-color: #ffffff42;
 }
 
 nav .start-Software,
 a:nth-child(4):hover~.animation {
-	left: 435px;
 	width: 140px;
+	height: 435px;
 	background-color: #ffffff42;
 }
 
 nav .start-Info,
 a:nth-child(5):hover~.animation {
 	width: 143px;
-	left: 578px;
+	height: 578px;
 	background-color: #ffffff42;
+}
+
+/* BOTON HAMBURGUESA */
+.menu-toggle {
+    top: 15px;
+    z-index: 10;
+    right: 25px;
+    height: 40px;
+    border: none;
+    width: 0 auto;
+    display: none;
+    cursor: pointer;
+    background: none;
+    position: absolute;
+}
+
+.menu-toggle span,
+.menu-toggle span:before,
+.menu-toggle span:after {
+    width: 30px;
+    height: 4px;
+    display: block;
+    transition: 0.3s;
+    border-radius: 2px;
+    position: absolute;
+    background: #ffffff;
+}
+
+.menu-toggle span {
+    top: 18px;
+    height: 5px;
+    position: center;
+}
+
+.menu-toggle span:before {
+    top: -10px;
+    height: 0px;
+    content: '';
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.menu-toggle span:after {
+	top: 10px;
+    height: 4px;
+    width: 30px;
+    content: '';
+    position: absolute;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
+    nav {
+		z-index: 100;
+		width: 100vw;
+        height: 40vh;
+        display: none;
+        display: flex;
+        position: center;
+        box-shadow: none;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: transparent;
+    }
+    nav.active {
+        display: flex;
+    }
+    .navbar {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav a {
+		width: 80%;
+        display: block;
+        font-size: 20px;
+        line-height: 35px;
+        margin: 10px auto;
+        text-align: center;
+    }
 }

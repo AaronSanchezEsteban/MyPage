@@ -20,14 +20,17 @@
 
       <!-- HEADER -->
       <header class="conteiner">
-        <nav>
+        <!-- Botón hamburguesa -->
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
+          <span></span>
+        </button>
+        <nav id="mainMenu">
           <a href="../BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
           <a href="../BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
           <a href="../BitMovil/src/pages/Html/Software/Software.html">Software</a>
           <a href="../BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
           <a href="../BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
           <div class="animation start-home"></div>
-
           <!-- BOTON DESPLEGABLE -->
           <div class="space">
             <div class="login-dropdown">
@@ -105,18 +108,18 @@
             <div class="tres-container">
               <h2>Buscas software</h2>
               <typeTitle>Tenemos la solución ideal para ti.</lettersType>
-              <ul class="lista-check">
-                <li>✅ Socio mayorista o distribuidor.</li>
-                <li>✅ Diseño, multimedia, edición.</li>
-                <li>✅ Organización y productividad.</li>
-                <li>✅ Soporte técnico 24/7.</li>
-                <li>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</li>
-              </ul>
-              <div class="boton-container">
-                <a href="" target="_blank" class="btn-animado">
-                  🔍 Información
-                </a>
-              </div>
+                <ul class="lista-check">
+                  <li>✅ Socio mayorista o distribuidor.</li>
+                  <li>✅ Diseño, multimedia, edición.</li>
+                  <li>✅ Organización y productividad.</li>
+                  <li>✅ Soporte técnico 24/7.</li>
+                  <li>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</li>
+                </ul>
+                <div class="boton-container">
+                  <a href="" target="_blank" class="btn-animado">
+                    🔍 Información
+                  </a>
+                </div>
             </div>
             <!-- CONTENT 2 -->
             <div class="tres-container">
@@ -148,9 +151,9 @@
                 Tu navegador no soporta este video.
               </video>
               <typeTitle>¿Problemas con tu Dispositivo?</typeTitle>
-              <li class="lista-check">Ofrecemos soluciones rápidas y confiables en tus 
+              <li class="lista-check">Ofrecemos soluciones rápidas y confiables en tus
                 dispositivos; Reparaciones, instalaciones & actualizaciones.</li>
-              
+
               <div class="boton-container">
                 <a href="" target="_blank" class="btn-animado">
                   🔍 Información
@@ -180,6 +183,12 @@
 
   <!-- SCRIPT -->
   <script src="/BitMovil/src/pages/Html/Inicio/Inicio.js"></script>
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('mainMenu');
+      menu.classList.toggle('active');
+    }
+  </script>
 </body>
 
 </html>
