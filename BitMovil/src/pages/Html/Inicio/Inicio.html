@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link type="text/css" href="/index.css" rel="stylesheet">
+  <link type="text/css" href="/BitMovil/src/pages/Styles/login.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/BitMovil/src/Assets/Fondo/Icon World.png">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Buttons.css" rel="stylesheet">
   <link type="text/css" href="/BitMovil/src/pages/Styles/Carousel.css" rel="stylesheet">
@@ -18,19 +19,50 @@
   <div class="view">
     <div class="tips-conteiner">
 
-<!-- HEADER -->
+      <!-- HEADER -->
       <header class="conteiner">
-        <!-- Botón hamburguesa -->
-        <div class="space">
-          <nav id="mainMenu">
-            <a href="/BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
+        <nav id="mainMenu">
+          <a href="/BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
+
+          <!-- ACCESORIOS SUBMENU -->
+          <div class="menu-item">
             <a href="/BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
-            <a href="/BitMovil/src/pages/Html/Software/Software.html">Software</a>
-            <a href="/BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
-            <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
-            <div class="animation start-home"></div>
-          </nav>
-        </div>
+
+            <div class="mega-menu">
+              <div class="space">
+
+              </div>
+              <div class="column">
+                <h4>Audio</h4>
+                <a href="#">Audífonos</a>
+                <a href="#">Bocinas</a>
+                <a href="#">Micrófonos</a>
+              </div>
+
+              <div class="column">
+                <h4>Cargadores</h4>
+                <a href="#">USB´S</a>
+                <a href="#">Inalámbricos</a>
+                <a href="#">Power Banks</a>
+              </div>
+
+              <div class="column">
+                <h4>Protección</h4>
+                <a href="#">Fundas</a>
+                <a href="#">Micas</a>
+                <a href="#">Soportes</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="/BitMovil/src/pages/Html/Software/Software.html">Software</a>
+          <a href="/BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
+          <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
+          <a href="/BitMovil/src/pages/Html/Contacto/Contacto.html">login</a>
+
+          <div id="loginModal" class="modal-login"></div>
+          <div class="animation start-home"></div>
+        </nav>
       </header>
 
       <!-- MAIN -->
@@ -106,7 +138,7 @@
                   <li>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</li>
                 </ul>
                 <div class="boton-container">
-                  <a href="" target="_blank" class="btn-animado">
+                  <a href="/BitMovil/src/pages/Html/Software/Software.html" target="_self" class="btn-animado">
                     🔍 Información
                   </a>
                 </div>
@@ -127,7 +159,7 @@
               <li class="lista-check">¡Encuentra toda la información que necesitas para armar tu
                 Computadora, desde los componentes hasta consejos prácticos!</li>
               <div class="boton-container">
-                <a href="" target="_blank" class="btn-animado">
+                <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html" target="_self" class="btn-animado">
                   🔍 Información
                 </a>
               </div>
@@ -145,7 +177,7 @@
                 dispositivos; Reparaciones, instalaciones & actualizaciones.</li>
 
               <div class="boton-container">
-                <a href="" target="_blank" class="btn-animado">
+                <a href="" target="_self" class="btn-animado">
                   🔍 Información
                 </a>
               </div>
@@ -171,7 +203,7 @@
   </div>
 
   <!-- SCRIPT -->
-   <script src="index.js"></script>
+  <script src="index.js"></script>
   <script src="/BitMovil/src/pages/Html/Inicio/Inicio.js"></script>
 </body>
 

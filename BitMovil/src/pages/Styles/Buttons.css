@@ -1,7 +1,7 @@
 nav {
 	/* SOMBRA OPCIONAL */
 	padding: 1px;
-	width: 620px;
+	width: 730px;
 	height: 50px;
 	font-size: 10px;
 	position: relative;
@@ -61,42 +61,42 @@ a:nth-child(6) {
 nav .start-Home,
 a:nth-child(1):hover~.animation {
 	left: 0;
-	width: 110px;
+	width: 100px;
 	background-color: #ffffff53;
 }
 
 nav .start-Games,
 a:nth-child(2):hover~.animation {
 	left: 110px;
-	width: 110px;
+	width: 100px;
 	background-color: #ffffff53;
 }
 
 nav .start-Proyect,
 a:nth-child(3):hover~.animation {
-	width: 105px;
-	left: 221px;
+	width: 100px;
+	left: 220px;
 	background-color: #ffffff53;
 }
 
 nav .start-Software,
 a:nth-child(4):hover~.animation {
-	left: 330px;
-	width: 160px;
+	left: 323px;
+	width: 155px;
 	background-color: #ffffff53;
 }
 
 nav .start-Info,
 a:nth-child(5):hover~.animation {
-	width: 130px;
+	width: 105px;
 	left: 492px;
 	background-color: #ffffff53;
 }
 
-/*BOTON MAS INFO*/
-.boton-container {
-	margin-top: 15px;
-	text-align: center;
+a:nth-child(6):hover~.animation {
+	width: 120px;
+	left: 611px;
+	background-color: #ffffff53;
 }
 
 .btn-animado {
@@ -113,4 +113,71 @@ a:nth-child(5):hover~.animation {
 	transform: scale(3);
 	background-color: #8129f45f;
 	box-shadow: 0 5px 5px #8022f9a9;
+}
+
+/* CONTENEDOR DEL ITEM CON SUBMENU */
+.menu-item {
+	position: relative;
+	display: inline-block;
+	height: 50px;
+}
+
+.menu-item > a {
+	width: 110px;
+}
+
+/* MEGA MENU */
+.mega-menu {
+	left: 0;
+	top: 100%;
+	z-index: 999;
+	padding: 15px;
+	display: none;
+	min-width: 350px;
+	position: absolute;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	animation: fadeIn 0.4s ease;
+	box-shadow: 0 2px 5px rgb(234, 1, 255);
+}
+
+/* MOSTRAR HOVER */
+.menu-item:hover .mega-menu {
+	display: flex;
+}
+
+/* COLUMNAS */
+.mega-menu .column {
+	display: flex;
+	min-width: 150px;
+	margin-right: 20px;
+	flex-direction: column;
+}
+
+.mega-menu h4 {
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+
+/* LINKS INTERNOS */
+.mega-menu a {
+	padding: 0;
+	font-size: 13px;
+	text-align: left;
+	color: #ffffff71;
+	line-height: 28px;
+	text-decoration: none;
+}
+
+.mega-menu a:hover {
+	color: #ffffff;
+	background: none;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(10px); }
+	to { opacity: 1; transform: translateY(0); }
 }

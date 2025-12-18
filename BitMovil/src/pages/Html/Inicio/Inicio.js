@@ -25,4 +25,27 @@ document.querySelectorAll('#mainMenu a').forEach(link => {
   });
 });
 
+$(document).ready(function () {
+
+  // RESPONSIVE MENU
+  $("#menutoggle").click(function () {
+    $('.xs-menu').toggleClass('displaynone');
+
+  });
+  // AGREGAR CLASE ACTIVE AL MENU
+  $('ul li').click(function (e) {
+    e.preventDefault();
+    $('li').removeClass('active');
+    $(this).addClass('active');
+  });
+  // ELIMINAR DROP MENU
+  $(".drop-down").hover(function () {
+    $('.mega-menu').addClass('display-on');
+  });
+  $(".drop-down").mouseleave(function () {
+    $('.mega-menu').removeClass('display-on');
+  });
+
+});
+
 document.getElementById('menuToggle').addEventListener('click', toggleMenu);
