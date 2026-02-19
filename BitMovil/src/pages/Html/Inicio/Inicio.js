@@ -1,21 +1,30 @@
-function abrirImagen(src) {
-  const modal = document.getElementById('modal');
-  const modalImg = document.getElementById('imgModal');
-  modal.style.display = 'block';
-  modalImg.src = src;
-}
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM listo");
+});
 
-function cerrarModal() {
-  document.getElementById('modal').style.display = 'none';
-}
+const imagenes = document.querySelectorAll(".img-modal");
+const modal = document.getElementById("modal");
+const imgModal = document.getElementById("imgModal");
+
+imagenes.forEach((img) => {
+  img.addEventListener("click", () => {
+    modal.style.display = "flex";
+    imgModal.src = img.src;
+  }); 
+});
+
+modal.addEventListener("click", () => {
+  modal.style.display = "none";
+  imgModal.src = "";
+});
 
 /* MENU DESPLEGABLE */
-function toggleMenu() {
   const menu = document.getElementById('mainMenu');
   const toggle = document.querySelector('.menu-toggle');
-  menu.classList.toggle('active');
-  toggle.classList.toggle('active');
-}
+  function toggleMenu() {
+    menu.classList.toggle('active');
+    toggle.classList.toggle('active');
+  }
 
 /* FUNCION INTERACCION MENU */
 document.querySelectorAll('#mainMenu a').forEach(link => {

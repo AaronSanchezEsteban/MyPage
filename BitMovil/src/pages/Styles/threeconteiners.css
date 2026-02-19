@@ -149,3 +149,13 @@
   background: transparent;
   box-shadow: 0 4px 8px rgb(225, 1, 255);
 }
+
+.contenedor-color{
+  width: 100%;
+  padding: 20px;
+  font-size: 12px;
+  max-width: 95%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
