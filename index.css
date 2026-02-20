@@ -1,6 +1,6 @@
 /* GENERAL */
 .view{
-    width: 100vh;
+    width: 50%;
     margin: 0 auto;
     padding: 0 auto;
     display: inline;
@@ -11,7 +11,7 @@ body {
     display: flex;
     margin: 0 auto;
     font-size: 12px;
-    min-height: 100vh;
+    min-height: 100%;
     text-align: center;
     align-items: center;
     flex-direction: column;
