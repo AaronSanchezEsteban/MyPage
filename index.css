@@ -1,11 +1,10 @@
 /* GENERAL */
 .view{
-    width: 897px;
-    display: inline;
+    width: 100vh;
     margin: 0 auto;
     padding: 0 auto;
-    max-width: 900px;
-    box-sizing: center;
+    display: inline;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,8 +25,8 @@ body {
     width: 100%;
     display: flex;
     padding: 20px;
-    max-width: 1200px;
-    min-height: 100vh;
+    max-width: 100%;
+    min-height: 100%;
     margin: 2rem auto;
     background: #ffffff;
     text-align: center;
