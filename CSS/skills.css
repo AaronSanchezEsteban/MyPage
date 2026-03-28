@@ -1,0 +1,30 @@
+.iconos {
+    gap: 20px;
+    display: flex;
+    color: #ffc400;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-icon{
+    margin-left: 15px;
+    font-style: normal;
+}
+
+@media (max-width: 700px) {
+    .fa-html5{
+        margin-left: 1px;
+        margin-top: -10px;
+    }
+
+    .fa-css3-alt{
+        margin-left: 1px;
+        margin-top: -10px;
+    }
+
+    .fa-js{
+        margin-left: 1px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+}

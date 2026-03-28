@@ -1,0 +1,77 @@
+.nav {
+	width: 80%;
+	height: 60px;
+	display: flex;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 20px;
+	align-items: center;
+	background-color: #000000;
+	justify-content: space-between;
+	font-family: Arial, sans-serif;
+}
+
+.nav a {
+	flex: 1;
+	z-index: 1;
+	height: 100%;
+	cursor: pointer;
+	font-size: 16px;
+	color: #ffc400;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	border-radius: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.nav .animation {
+	top: 0;
+	left: 0;
+	height: 100%;
+	transition: .4s;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.nav a:nth-child(1) {
+	flex: 1;
+}
+
+.nav a:nth-child(2) {
+	flex: 1;
+}
+
+.nav a:nth-child(3) {
+	flex: 1;
+}
+
+.nav a:nth-child(4) {
+	flex: 1;
+}
+
+.nav a:nth-child(5) {
+	flex: 1;
+}
+
+.nav a:nth-child(6) {
+	flex: 1;
+}
+
+.nav a:hover {
+	background: #ffffff22;
+}
+
+/* CONFIGURACION MOVIL */
+@media (max-width:700px) {
+
+	.nav {
+		width: 100%;
+		height: auto;
+		margin-left: -20px;
+	}
+}

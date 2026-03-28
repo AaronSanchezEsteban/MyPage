@@ -1,211 +1,340 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-  <title>Inicio | TechBit Store</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link type="text/css" href="/index.css" rel="stylesheet">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/login.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/BitMovil/src/Assets/Fondo/Icon World.png">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/Buttons.css" rel="stylesheet">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/Carousel.css" rel="stylesheet">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/video.css" rel="stylesheet">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/Text-animated.css" rel="stylesheet">
-  <link type="text/css" href="/BitMovil/src/pages/Styles/threeconteiners.css" rel="stylesheet">
+    <title>AaronDev</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/skills.css">
+    <link rel="stylesheet" href="CSS/site-nav.css">
+    <link rel="stylesheet" href="CSS/terminal.css">
+    <link rel="stylesheet" href="/CSS/education.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-  <div class="view">
-    <div class="tips-conteiner">
+    <div class="layout">
+        <header class="hdr">
+            <nav class="nav">
+                <a href="#aboutme">Aaron</a>
+                <a href="#portfolio">Proyect</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-      <!-- HEADER -->
-      <header class="conteiner">
-        <nav id="mainMenu">
-          <a href="/BitMovil/src/pages/Html/Inicio/Inicio.html">Inicio</a>
+        <main>
+            <section class="contain-section">
+                <div class="terminal-window">
+                    <div class="title-bar">
+                        <div class="buttons">
+                            <span class="btn close"></span>
+                            <span class="btn minimize"></span>
+                            <span class="btn maximize"></span>
+                        </div>
+                        <span id="title" class="title">C:\Users\Aaron\dev\portfolio.exe</span>
+                    </div>
 
-          <!-- ACCESORIOS SUBMENU -->
-          <div class="menu-item">
-            <a href="/BitMovil/src/pages/Html/Accesorios/Accesorios.html">Accesorios</a>
+                    <div class="terminal">
+                        <div class="terminal-img">
+                            <img src="/assets/Images/img.png" alt="Foto de perfil">
+                        </div>
 
-            <div class="mega-menu">
-              <div class="space">
+                        <div class="terminal-data">
+                            <h2 class="terminal-text">Aaron Sanchez Esteban</h2>
 
-              </div>
-              <div class="column">
-                <h4>Audio</h4>
-                <a href="#">Audífonos</a>
-                <a href="#">Bocinas</a>
-                <a href="#">Micrófonos</a>
-              </div>
+                            <p class="subtitle">
+                                Bienvenido a mi Portafolio
+                            </p>
 
-              <div class="column">
-                <h4>Cargadores</h4>
-                <a href="#">USB´S</a>
-                <a href="#">Inalámbricos</a>
-                <a href="#">Power Banks</a>
-              </div>
+                            <div class="description">
+                                <p id="description"></p>
+                            </div>
+                        </div>
+                    </div>
 
-              <div class="column">
-                <h4>Protección</h4>
-                <a href="#">Fundas</a>
-                <a href="#">Micas</a>
-                <a href="#">Soportes</a>
-              </div>
-            </div>
-          </div>
-
-          <a href="/BitMovil/src/pages/Html/Software/Software.html">Software</a>
-          <a href="/BitMovil/src/pages/Html/Documentos/Documents.html">Documentos</a>
-          <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html">Gamer</a>
-          <a href="/BitMovil/src/pages/Html/Login/Login.html">login</a>
-
-          <div id="loginModal" class="modal-login"></div>
-          <div class="animation start-home"></div>
-        </nav>
-      </header>
-
-      <!-- MAIN -->
-      <main>
-        <!-- CAROUSEL -->
-        <div class="space">
-          <div class="carousel space">
-            <div class="carousel-inner">
-              <!-- CAROUSEL 1 -->
-              <div class="carousel-item">
-                <div class="carousel-content">
-                  <img src="/BitMovil/src/Assets/Contenedores/Accesorios-1.png" alt="Imagen 1">
-                  <div class="carousel-caption">
-                    <h2 class="h2">ACCESORIOS</h2>
-                    <typeTitle>Encontrarás de todo tipo de accesorios para
-                      tu celular, desde cargadores, fundas, hasta
-                      auriculares y mucho más.</typeTitle>
-                  </div>
+                    <div class="links-grid">
+                        <div class="link-item">
+                            <a href="/assets/Professional CV Aaron Sanchez Esteban.pdf" download>
+                                Download.exe<span class="dots"></span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- CAROUSEL 2 -->
-              <div class="carousel-item">
-                <div class="carousel-content">
-                  <img src="/BitMovil/src/Assets/Contenedores/VideoGames.png" alt="Imagen 2">
-                  <div class="carousel-caption">
-                    <h2 class="h2">SERVICIOS</h2>
-                    <typeTitle>Requieres de algún servicio de mantenimiento preventivo,
-                      reparación técnica, alguna mejora o actualización,
-                      conectividad o simplemente un diagnóstico general.</typeTitle>
-                  </div>
-                </div>
-              </div>
-              <!-- CAROUSEL 3 -->
-              <div class="carousel-item">
-                <div class="carousel-content">
-                  <img src="/BitMovil/src/Assets/Contenedores/Setups Pc Gamer.jpg" alt="Imagen 3">
-                  <div class="carousel-caption">
-                    <h2 class="h2">EQUIPOS GAMER</h2>
-                    <typeTitle>Encontrarás cualquier hardware para armar tu setup gamer,
-                      desde tarjetas gráficas, SSD´s, monitores, teclados & mouse,
-                      sillas gamer y mucho más.</typeTitle>
-                  </div>
-                </div>
-              </div>
-              <!-- IMG 4 -->
-              <div class="carousel-item">
-                <div class="carousel-content">
-                  <img src="/BitMovil/src/Assets/Contenedores/License Security.jpg" alt="Imagen 4">
-                  <div class="carousel-caption">
-                    <h2 class="h2">LICENCIAS DE SOFTWARE</h2>
-                    <typeTitle>Obtén las mejores licencias de software,
-                      sistemas operativos y antivirus hasta suites de oficina y mucho más.
-                      trabajando con las herramientas más confiables y avanzadas del mercado.</typeTitle>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </section>
 
-        <!-- 3 CONTENEDORES -->
-        <div class="space">
-          <div class="view-container contexto">
-            <!-- CONTENT 1 -->
-            <div class="tres-container">
-              <h2>Buscas software</h2>
-              <typeTitle>Tenemos la solución ideal para ti.</lettersType>
-                <ul class="lista-check">
-                  <li>✅ Socio mayorista o distribuidor.</li>
-                  <li>✅ Diseño, multimedia, edición.</li>
-                  <li>✅ Organización y productividad.</li>
-                  <li>✅ Soporte técnico 24/7.</li>
-                  <li>✅ Protección, seguridad, análisis, actualizaciones y controles parentales.</li>
-                </ul>
-                <div class="boton-container">
-                  <a href="/BitMovil/src/pages/Html/Software/Software.html" target="_self" class="btn-animado">
-                    🔍 Información
-                  </a>
+            <section id="aboutme" class="contain-section1">
+                <h2 class="h2letter">SOBRE MI</h2>
+                <div class="subcontain">
+                    <p class="text-about">
+                        Empeze mi trayectoria profesional por una gran pasión por la tecnología,
+                        iniciando con la reparación de dispositivos móviles y equipos de cómputo.
+                        Con el tiempo, fui perfeccionando habilidades en instalación de software,
+                        mantenimiento de hardware y optimización de sistemas. Al concluir mis estudios en el
+                        bachillerato, mi curiosidad me llevó a profundizar en la ingeniería en sistemas computacionales,
+                        donde sentí una conexión especial entre el software y el hardware.
+                    </p>
+
+                    <div class="space">
+                        <p class="text-about">
+                            ACTUALMENTE BUSCO AMPLIAR MI CAMPO LABORAL COMO PROFESIONAL
+                            EN EL MUNDO DE DESARROLLO DE SOFTWARE.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <!-- CONTENT 2 -->
-            <div class="tres-container">
-              <h2>Arma tu Computadora</h2>
-              <div class="imagenes-grid">
-                <div class="container-imagen">
-                  <img src="/BitMovil/src/Assets/Contenedores/PC-Gamer-1.jpg" alt="Imagen 1"
-                    onclick="abrirImagen(this.src)">
+
+                <div class="subcontain">
+                    <p class="text-about">
+                        Puedes escribirme y contactarme a
+                        <a class="text" href="mailto:aaroningsistemas@gmail.com">
+                            Gmail.
+                        </a>
+                    </p>
                 </div>
-                <div class="container-imagen">
-                  <img src="/BitMovil/src/Assets/Contenedores/PC-Gamer-2.jpg" alt="Imagen 2"
-                    onclick="abrirImagen(this.src)">
+            </section>
+
+            <!--<section id="portfolio" class="contain-section1">
+                <h2 class="h2letter">PORTAFOLIO</h2>
+            </section>-->
+
+            <section id="education" class="contain-section1">
+                <h2 class="h2letter">EDUCACIÓN</h2>
+
+                <div class="subcontain">
+                    <div class="dos-window">
+                        <div class="dos-header">
+                            CISCO NETWORKING ACADEMY
+                            <div>Dic 2025 - Ene 2026</div>
+                        </div>
+
+                        <div class="dos-body">
+                            <p><strong>Network Support and Security</strong></p>
+                            <p><strong>Introduction to Cybersecurity</strong></p>
+                            <p>Emitido 27 de Dic 2025</p>
+                            <div class="btn-space">
+                                <a href="/assets/Documents/Certificate Cisco.rar" class="dos-btn" download> Download
+                                </a>
+                            </div>
+                            <p>© Copyright 2025 - Credly</p>
+                        </div>
+                    </div>
+
+                    <div class="dos-window">
+                        <div class="dos-header">
+                            Secretario Nacional del Empleo en Jalisco
+                            <div>Feb 2023 - Jul 2023</div>
+                        </div>
+
+                        <div class="dos-body">
+                            <p><strong>Servicio Social</strong></p>
+                            <p>Emitido Jul 2023</p>
+                            <div class="btn-space">
+                            </div>
+                            <p>Todos los derechos reservados.</p>
+                            <p>© 2026 Tecnológico Mario Molina Pasquel y Henríquez.</p>
+                        </div>
+                    </div>
+
+                    <div class="dos-window">
+                        <div class="dos-header">
+                            Tecmm Zapopan
+                            <div>Dic 2019 - Jun 2024</div>
+                        </div>
+
+                        <div class="dos-body">
+                            <p><strong>Ingeneria en Sistemas Compuacionales</strong></p>
+                            <p>Emitido 22 de Mar 2026</p>
+                            <div class="btn-space">
+                                <a href="/assets/Documents/Kardex 2026.pdf" class="dos-btn" download> Download
+                                </a>
+                            </div>
+                            <p>© 2026 Tecnológico Mario Molina Pasquel y Henríquez.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <li class="lista-check">¡Encuentra toda la información que necesitas para armar tu
-                Computadora, desde los componentes hasta consejos prácticos!</li>
-              <div class="boton-container">
-                <a href="/BitMovil/src/pages/Html/Gamer/Gamer.html" target="_self" class="btn-animado">
-                  🔍 Información
-                </a>
-              </div>
-            </div>
+            </section>
 
-            <!-- CONTENT 3 -->
-            <div class="tres-container">
-              <h2>Soporte Técnico</h2>
-              <video controls width="100%">
-                <source src="ayuda.mp4" type="video/mp4" />
-                Tu navegador no soporta este video.
-              </video>
-              <typeTitle>¿Problemas con tu Dispositivo?</typeTitle>
-              <li class="lista-check">Ofrecemos soluciones rápidas y confiables en tus
-                dispositivos; Reparaciones, instalaciones & actualizaciones.</li>
+            <section id="skills" class="contain-section1">
+                <h2 class="h2letter">SKILLS</h2>
+                <div class="space">
+                    <h1 class="h3letter">LENGUAJES DE PROGRAMACÍON</h1>
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="https://getbootstrap.com/">
+                                <i class="fa-brands">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                                        width="20">
+                                    <i class="text-icon">C#</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
 
-              <div class="boton-container">
-                <a href="" target="_self" class="btn-animado">
-                  🔍 Información
-                </a>
-              </div>
-            </div>
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="https://getbootstrap.com/">
+                                <i class="fa-brands">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                        width="20">
+                                    <i class="text-icon">Java (POO)</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
-            <!-- Modal -->
-            <div id="modal" class="modal" onclick="cerrarModal()">
-              <span class="cerrar">&times;</span>
-              <img class="modal-contenido" id="imgModal">
-            </div>
+                <div class="space">
+                    <h1 class="h3letter">LIBRERÍAS</h1>
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="https://getbootstrap.com/">
+                                <i class="fa-brands">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                                        width="20">
+                                    <i class="text-icon">BOOBSTRAP</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
-          </div>
-        </div>
-      </main>
+                <div class="space">
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="https://getbootstrap.com/">
+                                <i class="fa-brands">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                        width="20">
+                                    <i class="text-icon">JAVA (POO)</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
-      <!-- FOOTER -->
-      <footer class="contenedor-transparente textoflooter">
-        Este sitio web y todo su contenido, incluyendo textos & código, son propiedad
-        exclusiva de <strong>© Aaron Salvador Sanchez Esteban</strong>.
-        Queda estrictamente prohibida su reproducción, distribución, modificación o uso
-        no autorizado, total o parcial, sin el consentimiento expreso y por escrito del titular.
-      </footer>
+                <div class="space">
+                    <h1 class="h3letter">SOFTWARE & HERRAMIENTAS</h1>
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="https://code.visualstudio.com/">
+                                <i class="fa-brands">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                                        width="20">
+                                    <i class="text-icon">VSCode</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="subcontain">
+                        <p class="text-about">
+                            <a class="text" href="">
+                                <i class="fa-solid fa-database">
+                                    <i class="text-icon">MySQL</i>
+                                </i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="space">
+                    <h1 class="h3letter">ESTOY APRENDIENDO:</h1>
+                    <div class="subcontain">
+                        <ul class="text-about">
+                            <li>Práctica de desarrollo web con HTML y CSS</li>
+                            <li>Desarrollo y practica de páginas y ejercicios básicos.</li>
+                            <li>Constante practica & aprendizaje en JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contain-section1">
+                <h2 class="h2letter">CONTACTO</h2>
+                <div class="subcontain">
+                    <p class="text-about">
+                        <a class="text" href="mailto:aaroningsistemas@gmail.com">
+                            <i class="fa-solid fa-envelope">
+                                <i class="text-icon">Gmail</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="subcontain">
+                    <p class="text-about">
+                        <a class="text" href="https://wa.me/3323329502/">
+                            <i class="fa-brands fa-whatsapp">
+                                <i class="text-icon">Whatsapp</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="subcontain">
+                    <p class="text-about">
+                        <a class="text" href="https://www.linkedin.com/in/aaron-sanchez-esteban">
+                            <i class="fa-brands fa-linkedin">
+                                <i class="text-icon">Linkedin</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="subcontain">
+                    <p class="text-about">
+                        <a class="text" href="https://github.com/AaronSanchezEsteban">
+                            <i class="fa-brands fa-github">
+                                <i class="text-icon">Github</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+            </section>
+
+            <section id="contact" class="contain-section1">
+                <a class="h3letter">ESTA PAGINA ESTA DESARROLLADO CON:</a>
+                <div class="final-contain">
+                    <p class="text-about">
+                        <a class="text" href="https://developer.mozilla.org/es/docs/Web/HTML">
+                            <i class="fa-brands fa-html5">
+                                <i class="text-icon">HTML</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="final-contain">
+                    <p class="text-about">
+                        <a class="text"
+                            href="https://search.brave.com/search?q=css&summary=1&conversation=08e655e3b60ac0f3774fc8f357d8016d2770">
+                            <i class="fa-brands fa-css3-alt">
+                                <i class="text-icon">CSS</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="final-contain">
+                    <p class="text-about">
+                        <a class="text">
+                            <i class="fa-brands fa-js">
+                                <i class="text-icon">JAVASCRIPT</i>
+                            </i>
+                        </a>
+                    </p>
+                </div>
+            </section>
+        </main>
     </div>
-  </div>
 
-  <!-- SCRIPT -->
-  <script src="index.js"></script>
-  <script src="/BitMovil/src/pages/Html/Inicio/Inicio.js"></script>
+    <!-- BLOCKEA INSPECCIONAR-->
+    <script src="index.js"></script>
+    <script src="JS/terminal.js"></script>
+    <script src="JS/site-nav.js"></script>
 </body>
 
 </html>

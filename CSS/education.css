@@ -1,0 +1,63 @@
+.dos-window {
+    width: 50vw;
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    color: #ffffff;
+    background: #000000;
+}
+
+.dos-header {
+    padding: 10px;
+    display: grid;
+    gap: 1px 270px;
+    margin-top: 30px;
+    color: #2bff00;
+    font-weight: bold;
+    background: #000000;
+    grid-template-columns: 2.5fr 1fr;
+    border-bottom: 2px solid #ffffff;
+}
+
+.dos-body {
+    padding: 15px;
+}
+
+.btn-space{
+    margin-left: -10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dos-btn {
+    margin: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 5px 20px;
+    background: #111111;
+    text-decoration: none;
+    font-family: monospace;
+    border: 2px solid #676767;
+}
+
+.dos-btn:active {
+    box-shadow: inset 2px 2px 0 #ffffff;
+}
+
+hr {
+    border: 1px solid #ffffff;
+}
+
+@media (max-width: 700px) {
+    .dos-header{
+        width: 75vw;
+        display: flex;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+
+    .dos-window{
+        margin-left: 30px;
+
+    }
+}

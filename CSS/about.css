@@ -1,0 +1,67 @@
+.text{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text-about{
+    gap: 10px;
+    max-width: 70%;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-about i {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.fa-envelope {
+    color: #ffffff;
+}
+
+.fa-whatsapp {
+    color: #00ff5e;
+}
+
+.fa-linkedin {
+    color: #0062ff;
+}
+
+.fa-html5 {
+    margin-top: 25px;
+    color: #e34c26;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js {
+    color: #f0db4f;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 700px) {
+    .text-about{
+        width: 65vw;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .fa-html5{
+        margin-left: 40px;
+    }
+
+    .fa-css3-alt{
+        margin-left: 40px;
+    }
+
+    .fa-js{
+        margin-left: 40px;
+    }
+}
