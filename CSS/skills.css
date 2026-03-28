@@ -11,7 +11,7 @@
     font-style: normal;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .fa-html5{
         margin-left: 1px;
         margin-top: -10px;

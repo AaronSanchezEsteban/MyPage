@@ -48,7 +48,7 @@ hr {
     border: 1px solid #ffffff;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .dos-header{
         width: 75vw;
         display: flex;

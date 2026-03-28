@@ -67,7 +67,7 @@
 }
 
 /* CONFIGURACION MOVIL */
-@media (max-width:700px) {
+@media (max-width: 1000px) {
 
 	.nav {
 		width: 100%;
